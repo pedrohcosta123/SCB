@@ -28,9 +28,9 @@ function url(){
 
 function carrega_menu($id_emp, $id_user,$menu){		
 
-	$host= 'robb0498.publiccloud.com.br:3306';
-	$bd= 'suprinetit_SCB';
-	$senhabd= 'Second123@'; 
+	$host= '';
+	$bd= '';
+	$senhabd= '; 
 	$userbd = 'supri_pcosta'; 
 	$link = mysqli_connect($host, $userbd, $senhabd, $bd);	
 	$config = "SET NAMES 'utf8'; ";
