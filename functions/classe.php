@@ -410,10 +410,10 @@ class painel {
 
 class Conexao{
 
-	var $host    = "robb0498.publiccloud.com.br:3306";
-	var $usuario = "supri_pcosta";
-	var $senha = "Second123@";
-	var $banco = "suprinetit_SCB";	
+	var $host    = "";
+	var $usuario = "";
+	var $senha = "@";
+	var $banco = "";	
 	var $mysqli;
 
 	function Abrir(){	
